@@ -1,0 +1,79 @@
+{
+    "layer": "top",
+    "position": "top",
+    "exclusive" : true,
+    "passthrough": false,
+    
+    "modules-left" : [ "hyprland/window" ],
+    "modules-center" : [ "network", "cpu", "memory","hyprland/workspaces", "wireplumber", "battery", "clock" ],
+    "modules-right" : [ "custom/notification", "tray" ],
+    
+    "hyprland/workspaces" : {
+        "format" : "{icon}",
+        "format-icons" : {
+        "default" : " ",
+        "active" : ""
+        },
+        "on-scroll-up" : "hyprctl dispatch workspace e+1",
+        "on-scroll-down" : "hyprctl dispatch workspace e-1"
+    },
+    "clock" : {
+        "format" : "{:%H:%M  }",
+        "tooltip" : false
+    },
+    "hyprland/window" : {
+        "max-length" : 60,
+        "separate-outputs" : false,
+        "format" : "{initialTitle}",
+        "rewrite": {
+            "New Tab - Chromium": "Chromium"
+        }
+    },
+    "memory" : {
+        "interval" : 5,
+        "format" : " {}%",
+        "tooltip" : true
+    },
+    "cpu" : {
+        "interval" : 5,
+        "format" : " {usage:2}%",
+        "tooltip" : true
+    },
+    "disk" : {
+        "format" : "  {free}",
+        "tooltip" : true
+    },
+    "network" : {
+        "format-icons" : ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+        "format-ethernet" : ": {bandwidthDownOctets} : {bandwidthUpOctets}",
+        "format-wifi" : "{icon} {essid}",
+        "format-disconnected" : "󰤮",
+        "tooltip" : true 
+    },
+    "tray" : {
+        "icon-size": 21,
+        "spacing" : 12
+    },
+    
+    
+    "battery" : {
+      "bat" : "BAT0",
+      "adapter" : "AC0",
+      "states" : {
+        "warning" : 30,
+        "critical" : 10
+      },
+      "format" : "{capacity}% {icon}",
+      "format-charging" : "{capacity}% 󰂄",
+      "format-plugged" : "{capacity}% 󱘖",
+      "format-icons" : ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+      "tooltip" : false
+    },
+
+    "wireplumber": {
+        "format": "{volume}% {icon}",
+        "format-muted": "󰖁",
+        "on-click": "helvum",
+        "format-icons": ["", "", ""]
+    }
+}
