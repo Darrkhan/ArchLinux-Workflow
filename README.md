@@ -1,4 +1,4 @@
-# Cybersecurity-focused Engineering Workflow (2024)
+# Cybersecurity-focused Engineering Workflow
 
 Welcome to my GitHub repository showcasing my workflow as an engineering student specializing in cybersecurity for the year 2024. This repository includes details on the tools I will be using and my updated Arch Linux configuration.
 
