@@ -37,8 +37,7 @@ From [Freepik](https://fr.freepik.com/vecteurs-libre/formes-geometriques-degrade
 #### Fonts
   Nerd Fonts and Font awesome
 #### Waybar
-  Waybar-hyprland from the Aur
-  Parts of the theme are from [Zaney](https://gitlab.com/Zaney/zaneyos) NixOs dotfiles. 
+  Waybar-hyprland from the Aur. Parts of the theme are from [Zaney](https://gitlab.com/Zaney/zaneyos) NixOs dotfiles. 
 #### Hyprland, nwg-look and nwg-drawer
   Clone of the officials repo
 #### Kitty theme
