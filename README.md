@@ -10,7 +10,7 @@ The system is set up on a Btrfs file system nested within an encrypted LVM volum
 
 While I may not consider myself an expert at ricing, I've put effort into creating a clean and efficient configuration. I have opted for Hyprland with Waybar and nwg-drawer, a combination that I find particularly effective on Wayland, addressing all my requirements. Both Wlogout and Swaylock function seamlessly and can be customized easily.
 
-Explore my dotfiles within this repository, where you may also find a script for installation, provided my motivation aligns.
+Explore my dotfiles within this repository.
 
 ## Software
 
@@ -26,3 +26,8 @@ Explore my dotfiles within this repository, where you may also find a script for
 - **Kitty Terminal:** Serving as my terminal emulator.
 
 Feel free to explore and adapt elements of my workflow to enhance your's. If you're interested, my dotfiles and potentially an installation script are available within this repository.
+
+## Screeshots
+![alt text](https://github.com/darrkhan/ArchLinux-Workflow/blob/main/screen.png?raw=true)
+
+##
