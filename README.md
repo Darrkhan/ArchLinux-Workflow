@@ -1,4 +1,4 @@
-# Cybersecurity-focused Engineering Workflow
+# Cybersecurity-focused Student Workflow
 
 Welcome to my GitHub repository showcasing my workflow as an engineering student specializing in cybersecurity for the year 2024. This repository includes details on the tools I will be using and my updated Arch Linux configuration.
 
@@ -28,6 +28,14 @@ Explore my dotfiles within this repository.
 Feel free to explore and adapt elements of my workflow to enhance your's. If you're interested, my dotfiles and potentially an installation script are available within this repository.
 
 ## Screeshots
-![alt text](https://github.com/darrkhan/ArchLinux-Workflow/blob/main/screen.png?raw=true)
+![screenshot](https://github.com/darrkhan/ArchLinux-Workflow/blob/main/config_arch.png?raw=true)
 
-##
+## Requirements
+#### Fonts
+  Nerd Fonts and Font awesome
+#### Waybar
+  Waybar-hyprland from the Aur
+#### Hyprland, nwg-look and nwg-drawer
+  Clone of the officials repo
+#### Kitty theme
+  Material theme from [https://github.com/dexpota/kitty-themes]
