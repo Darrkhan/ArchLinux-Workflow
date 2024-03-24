@@ -1,6 +1,6 @@
 # Cybersecurity-focused Student Workflow
 
-Welcome to my GitHub repository showcasing my workflow as an engineering student specializing in cybersecurity for the year 2024. This repository includes details on the tools I will be using and my updated Arch Linux configuration.
+Welcome to my GitHub repository showcasing my workflow as an engineering student. This repository includes details on the tools I will be using and my updated Arch Linux configuration.
 > [!NOTE]
 > I regularly experiment with various Linux distributions. Please let me know if you have any recommendations or questions,
 > I'll more than happy to answer them. Please note, however, that I may not be using Arch at the time.
@@ -10,9 +10,7 @@ The system is set up on a Btrfs file system nested within an encrypted LVM volum
 
 ## Configuration and Ricing
 
-While I may not consider myself an expert at ricing, I've put effort into creating a clean and efficient configuration. I have opted for Hyprland with Waybar and nwg-drawer, a combination that I find particularly effective on Wayland, addressing all my requirements. Both Wlogout and Swaylock function seamlessly and can be customized easily.
-
-Explore my dotfiles within this repository.
+I have opted for Hyprland with Waybar and nwg-drawer, following all my requirements. Both Wlogout and Swaylock function seamlessly and can be customized easily.
 
 ## Software
 
